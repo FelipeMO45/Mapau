@@ -1,0 +1,224 @@
+/* Navbar.css */
+
+
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-leaves {
+  width: 3300px;
+  height: auto;
+top: 50%;
+}
+
+.logo-title {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+
+}
+
+.logo-highlight {
+  color: #ffb434;
+}
+
+.logo-subtitle {
+  color: white;
+  text-transform: uppercase;
+}
+
+/* Responsive adjustments */
+@media (min-width: 300px) and (max-width: 767px){
+  .navbar-container {
+    padding: 0 2rem;
+    margin-top: 1.5rem;
+  }
+  .logo-leaves {
+    width: 100px;
+  }
+  .logo-title {
+    font-size: 13px;
+  }
+  .logo-subtitle {
+    font-size: 11px;
+  }
+  .navbar-menu {
+    margin-top: 5%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+  }
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .menu-item {
+    padding: 0.4rem;
+    border-bottom: 1px solid transparent;
+    border-radius: 30px;
+    transition: all 0.15s ease-in-out;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .logo-leaves {
+    width: 140px;
+  }
+  .logo-title {
+    font-size: 18px;
+  }
+  .logo-subtitle {
+    font-size: 14px;
+  }
+  .navbar-menu {
+    margin-top: 5%;
+    width: 60%;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 6px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .menu-item {
+    padding: 0.5rem;
+    border-bottom: 1px solid transparent;
+    border-radius: 48px;
+    transition: all 0.15s ease-in-out;
+  }
+
+  .menu-item:hover {
+    border-color: #ffbd07;
+    transform: scale(1.05);
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1440px)  {
+  .navbar-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 140px;
+    margin-top: 2rem;
+  }
+  .logo-leaves {
+    width: 97px;
+  }
+  .logo-title {
+    font-size: 20px;
+  }
+  .logo-subtitle {
+    font-size: 15px;
+  }
+  .navbar-menu {
+    width: 45%;
+    padding: 0.2rem;
+    background: linear-gradient(to right, #0000004f, #00000049, #0000004f);
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-items {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+
+  .menu-item {
+    padding: 0.5rem;
+    border-bottom: 1px solid transparent;
+    border-radius: 48px;
+    transition: all 0.15s ease-in-out;
+    gap:41px;
+  }
+
+  .menu-item:hover {
+    border-color: #ffbd07;
+    transform: scale(1.05);
+  }
+}
+
+@media (min-width: 1441px)  {
+  .navbar-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 215px;
+    margin-top: 2rem;
+  }
+  .logo-leaves {
+    width: 137px;
+  }
+  .logo-title {
+    font-size: 25px;
+  }
+  .logo-subtitle {
+    font-size: 20px;
+  }
+
+  .navbar-menu {
+    width: 40%;
+    padding: 0.5rem;
+    background: linear-gradient(to right, #0000004f, #00000049, #0000004f);
+    box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 48px;
+    display:flex;
+    justify-content: center;
+
+  }
+
+  .menu-items {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    gap: 81px;
+  }
+
+  .menu-item {
+    padding: 0.5rem;
+    border-bottom: 1px solid transparent;
+    border-radius: 48px;
+    transition: all 0.15s ease-in-out;
+  }
+
+  .menu-item:hover {
+    border-color: #ffbd07;
+    transform: scale(1.05);
+  }
+
+}

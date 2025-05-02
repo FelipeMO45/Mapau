@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@500;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.responsive-title {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffd207;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.responsive-bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.decorativeleaf {
+  position: absolute;
+  z-index: 999;
+  top: 30%;
+  left: 5%;
+  width: 60px;
+}
+
+
+/* Mobile */
+@media (min-width: 300px) and (max-width: 767px) {
+  .bgimg1 {
+    margin-left: 0%;
+    height: 0vh;
+  }
+
+  .responsive-title {
+    margin-top:150px;
+    font-size: 65px;
+    line-height: 100px;
+    letter-spacing: 20px;
+  }
+  .containermapau{
+    margin-left: 44px;
+  }
+  .decorativeleaf {
+    top: 45%;
+    left: 3.5%;
+    width: 55px;
+  }
+  .slider-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5); /* Oscurece con capa negra */
+    z-index: 1;
+    pointer-events: none;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .bgimg1 {
+    margin-left: 0%;
+    height: 0vh;
+    max-height: 1439px;
+  }
+  .responsive-title {
+    font-size: 130px;
+    line-height: 200px;
+    letter-spacing: 50px;
+  }
+  .containermapau{
+    margin-left: 30px;
+  }
+  .decorativeleaf {
+    top: 32%;
+    left: 5.5%;
+    width: 75px;
+  }
+  .slider-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5); /* Oscurece con capa negra */
+    z-index: 1;
+    pointer-events: none;
+  }
+}
+
+/* Laptops */
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .bgimg1 {
+    margin-left: -83px;
+    height: 100vh;
+    max-height: 1439px;
+  }
+  .responsive-title {
+    font-size: 160px;
+    line-height: 150px;
+    letter-spacing: 50px;
+  }
+  .decorativeleaf {
+    top: 28%;
+    left: 6.5%;
+    width: 75px;
+  }
+  .slider-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2); /* Oscurece con capa negra */
+    z-index: 1;
+    pointer-events: none;
+  }
+}
+
+/* Desktops */
+@media (min-width: 1441px) {
+  .bgimg1 {
+    margin-left: 0px;
+    height: 100vh;
+    max-height: 1920px;
+  }
+  .responsive-title {
+    font-size: 245px;
+    line-height: 200px;
+    letter-spacing: 50px;
+  }
+  .decorativeleaf {
+    top: 27%;
+    left: 7%;
+    width: 100px;
+  }
+  .slider-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2); /* Oscurece con capa negra */
+    z-index: 1;
+    pointer-events: none;
+  }
+}
