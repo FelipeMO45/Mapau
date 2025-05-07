@@ -19,14 +19,14 @@ const SliderContent: React.FC<SliderContentProps> = ({ item }) => {
       />
 
       <h1
-        className="
+        className=" font-Mapau
     text-[101px] sm:text-[100px] md:text-[120px] lg:text-[200px] xl:text-[250px]
     font-[900] text-[#ffb434] text-opacity-[90%] text-content text-laptop
   "
       >
         <span className="absolute text-u"></span>
-        <span className="absolute pl-4 sm:pl-2 md:pl-10 text-u text-content pl-laptop-a">A</span>
-        <span className="absolute pl-4 sm:pl-6 md:pl-10 text-r text-content pl-laptop-u">U</span>
+        <span className="font-Mapau absolute pl-4 sm:pl-2 md:pl-10 text-u text-content pl-laptop-a">A</span>
+        <span className="font-Mapau absolute pl-4 sm:pl-6 md:pl-10 text-r text-content pl-laptop-u">U</span>
       </h1>
 
 

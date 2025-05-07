@@ -9,9 +9,8 @@ const Navbar: React.FC = () => {
       <div className="navbar-logo">
         <img src={logo} alt="Logo Mapau" className="logo-leaves" />
         <h1 className="logo-title">
-          MAPAU <span className="logo-highlight">Luxury Cenotes</span>
         </h1>
-        <p className="logo-subtitle">& Villas</p>
+        
       </div>
 
       {/* Menu */}

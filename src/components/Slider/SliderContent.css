@@ -109,6 +109,8 @@
     left: 51%;
     font-size: 65px;
     z-index: 10;
+    font-weight: 100;
+    font-family: Mapau;
   }
 
   .text-content .text-r {
@@ -116,6 +118,8 @@
     left: 64%;
     font-size: 65px;
     z-index: 10;
+    font-weight: 100;
+    font-family: Mapau;
   }
 
   .text-content .text-e {
@@ -130,6 +134,8 @@
     left: 48%;
     font-size: 125px;
     z-index: 10;
+    font-weight: 100;
+    font-family: Mapau;
   }
 
   .text-content .text-r {
@@ -137,6 +143,8 @@
     left: 60%;
     font-size: 125px;
     z-index: 10;
+    font-weight: 100;
+    font-family: Mapau;
   }
 
   .text-content .text-e {
@@ -153,6 +161,8 @@
     top: 41%;
     font-size: 150px; /* reduce size slightly */
     z-index: 10;
+    font-weight: 100;
+    font-family: Mapau;
   }
 
   .text-content .text-r {
@@ -160,6 +170,8 @@
     top: 7.2%;
     font-size: 150px;
     z-index: 10;
+    font-weight: 100;
+    font-family: Mapau;
   }
 
   .text-content .text-e {
@@ -173,6 +185,8 @@
     top: 35%;
     font-size: 250px; /* reduce size slightly */
     z-index: 10;
+    font-weight: 100;
+    font-family: Mapau;
   }
 
   .text-content .text-r {
@@ -180,6 +194,8 @@
     top: 9.2%;
     font-size: 250px;
     z-index: 10;
+    font-weight: 100;
+    font-family: Mapau;
   }
 
   .text-content .text-e {

@@ -10,6 +10,7 @@ const config = {
     fontFamily: {
       Montserrat: ['Montserrat', 'sans-serif'],
       Poppins: ['Poppins', 'sans-serif'],
+      Mapau:['Mapau', 'sans-serif']
     },
     extend: {},
   },

@@ -1,4 +1,4 @@
-/* Navbar.css */
+ /* Navbar.css */
 
 
 .navbar-container {
@@ -23,18 +23,17 @@ top: 50%;
 .logo-title {
   font-weight: 900;
   text-transform: uppercase;
-  color: white;
-
-}
-
-.logo-highlight {
   color: #ffb434;
+
+
 }
 
 .logo-subtitle {
   color: white;
   text-transform: uppercase;
 }
+
+
 
 /* Responsive adjustments */
 @media (min-width: 300px) and (max-width: 767px){
@@ -68,11 +67,19 @@ top: 50%;
   }
 
   .menu-item {
-    padding: 0.4rem;
-    border-bottom: 1px solid transparent;
-    border-radius: 30px;
-    transition: all 0.15s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0.4rem 0;
+    width: 110%;
+    border: 1px solid #ffffff22;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   }
+
+  .menu-item:hover {
+    background-color: rgba(255, 180, 52, 0.2);
+    transform: scale(1.08);
+    cursor: pointer;
+  }
+
 
 
 }
@@ -202,11 +209,11 @@ top: 50%;
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     color: #ffffff;
     text-align: center;
-    gap: 81px;
+    gap: 51px;
   }
 
   .menu-item {

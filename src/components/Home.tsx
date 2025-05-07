@@ -37,25 +37,14 @@ const Home: React.FC = () => {
           className="responsive-title"
         >
 
-          <span className="ml-[-12px] sm:ml-[-20px] md:ml-[-6px]">M</span><span className="ml-[-12px] sm:ml-[-20px] md:ml-[-28px]">A</span>
+          <span className="font-Mapau ml-[-12px] sm:ml-[-20px] md:ml-[-6px]">M</span><span className="ml-[-12px] sm:ml-[-20px] md:ml-[-28px]">A</span>
           <span className="ml-[-20px] sm:ml-[-32px] md:ml-[-44px]">P</span >
         </h1>
-        <p
-          className=" lorem
-            text-white
-            w-[250px]
-            sm:w-[300px]
-            md:w-[350px]
-            lg:w-[400px]
-            text-sm
-            sm:text-base
-          "
-        >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit
-        </p>
+        <br />
+         <h1 className="logo-title">Luxury Cenotes</h1>  <p className="logo-subtitle">& Villas</p>
         <button
           className="
-            border px-4 sm:px-5 my-4 sm:my-6 border-[#ffbd07]
+            border px-4 sm:px-5 my-4 sm:my-6 border-[#ffb434]
             rounded-[20px] text-white py-1
             hover:shadow-md hover:shadow-[#ffbd07b4]
             hover:scale-[1.01] transform duration-200

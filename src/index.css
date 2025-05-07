@@ -5,12 +5,10 @@
 @tailwind utilities;
 
 .responsive-title {
-  font-weight: 900;
+  font-weight: 100;
   text-transform: uppercase;
-  color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #ffd207;
-  font-family: "Poppins", sans-serif;
+  color: #ffb434;
+  font-family: "Mapau", sans-serif;
   position: relative;
 }
 
@@ -29,6 +27,16 @@
   width: 60px;
 }
 
+.logo-subtitle {
+  color: white;
+  text-transform: uppercase;
+}
+
+@font-face {
+  font-family: 'Mapau';
+  src: url('/src/fonts/Mapau-Regular.ttf') format('truetype');
+  font-weight: 100;
+}
 
 /* Mobile */
 @media (min-width: 300px) and (max-width: 767px) {
@@ -155,4 +163,8 @@
     z-index: 1;
     pointer-events: none;
   }
+
+
+
+
 }
