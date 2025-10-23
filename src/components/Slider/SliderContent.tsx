@@ -19,7 +19,7 @@ const SliderContent: React.FC<SliderContentProps> = ({ item }) => {
       />
 
       <h1
-        className=" font-Mapau
+        className=" hidden sm:hidden md:hidden lg:block font-Mapau
     text-[101px] sm:text-[100px] md:text-[120px] lg:text-[200px] xl:text-[250px]
     font-[900] text-[#ffb434] text-opacity-[90%] text-content text-laptop
   "

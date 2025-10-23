@@ -37,6 +37,7 @@ export default function MainSlider(): JSX.Element {
           delay: 5000,
           disableOnInteraction: false,
           pauseOnMouseEnter: false,
+
         }}
         pagination={{
           dynamicBullets: true,

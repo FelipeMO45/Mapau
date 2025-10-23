@@ -3,8 +3,6 @@
   transition: transform 0.3s ease;
 }
 
-
-
 /* Leaf Positions - Mobile Base */
 @media (min-width: 300px) and (max-width: 767px) {
   .leaf-one {
@@ -105,8 +103,8 @@
 /* Text Default Position - Mobile */
 @media (min-width: 300px) and (max-width: 767px) {
   .text-content .text-u {
-    top: 61.2%;
-    left: 51%;
+    top: 51%;
+    left: 49%;
     font-size: 65px;
     z-index: 10;
     font-weight: 100;
@@ -114,8 +112,8 @@
   }
 
   .text-content .text-r {
-    top: 23.3%;
-    left: 64%;
+    top: 51%;
+    left: 62%;
     font-size: 65px;
     z-index: 10;
     font-weight: 100;
@@ -154,10 +152,18 @@
   }
 }
 
+@media (max-width: 1279px) {
+  .swiper-slide-active .text-u,
+  .swiper-slide-active .text-r {
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
 /* ✅ Laptops between 1280x800 and 1440x900 */
 @media (min-width: 1280px) and (max-width: 1440px) {
   .text-content .text-u {
-    left: 40.5%;
+    left: 38%;
     top: 41%;
     font-size: 150px; /* reduce size slightly */
     z-index: 10;
@@ -166,22 +172,17 @@
   }
 
   .text-content .text-r {
-    left: 50.5%;
+    left: 47.5%;
     top: 7.2%;
     font-size: 150px;
     z-index: 10;
     font-weight: 100;
     font-family: Mapau;
   }
-
-  .text-content .text-e {
-    left: 75%;
-    font-size: 200px;
-  }
 }
 @media (min-width: 1441px) {
   .text-content .text-u {
-    left: 41%;
+    left: 39%;
     top: 35%;
     font-size: 250px; /* reduce size slightly */
     z-index: 10;
@@ -190,7 +191,7 @@
   }
 
   .text-content .text-r {
-    left: 51%;
+    left: 49.5%;
     top: 9.2%;
     font-size: 250px;
     z-index: 10;

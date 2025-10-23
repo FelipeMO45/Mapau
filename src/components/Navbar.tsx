@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
         <img src={logo} alt="Logo Mapau" className="logo-leaves" />
         <h1 className="logo-title">
         </h1>
-        
+
       </div>
 
       {/* Menu */}
